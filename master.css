@@ -1,0 +1,136 @@
+body {
+    font-family: 'Bellefair', serif;
+    color: yellow;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    margin-top: 10px;
+}
+.menu__item{
+    
+}
+.book {
+    background: orange;
+    color: aliceblue;
+    font-size: 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    font-weight: 700;
+    height: 35px;
+
+}
+.book__icon{
+    background:  url(fb.png) no-repeat;
+    width: 21px;
+    height: 17px;
+    margin-right: 10px;
+    margin-top: 2.5px;
+}
+header{
+    background: yellow;
+}
+.main-header{
+    padding: 24px 0;
+}
+.offer{
+    background: url(picture.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+    
+}
+.title {
+    padding: 120px 0;
+    margin-left: 120px;
+}
+
+.about {
+    padding: 60px 100px;
+}
+.history {
+    padding: 100px;
+}
+
+.btn{
+    background: orange;
+    color: aliceblue;
+    font-size: 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 200px;
+    font-weight: 700;
+    height: 35px;
+}
+.special{
+    background: url(picture.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+}
+.special__text{
+    text-align: center;
+    padding: 50px;
+}
+.food{
+    align-items: center;
+    
+}
+
+.today{
+    text-align: center;
+}
+footer{
+    background: green;
+    color: aliceblue;
+    font-size: 13px;
+    padding: 72px 106px;
+    
+}
+
+.social{
+  align-items: center; 
+    margin-top: 150px;
+}
+
+.social__item a{
+   
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+   
+   
+}
+.justify-content-center{
+    justify-content: center!important;
+}
+
+.social__item_fb a{
+    
+    background: blue url("fb.png") no-repeat center center;
+}
+
+.social__item_tw a{
+    background: black url("tw.png") no-repeat center center;
+    
+}
+
+.social__item_g a{
+background: red url("g.png") no-repeat center center;    
+}
+
+.line{
+    background: black;
+    height: 1px;
+    margin-top: 10px;
+}
+.credits{
+    text-align: center;
+    font-size: 18px;
+}
